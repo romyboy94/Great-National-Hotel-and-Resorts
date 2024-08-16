@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.cumulativeItems {
+  margin-left: 1rem !important;
+  margin-top: 1.1rem !important;
+}
+
+.orderdates {
+  padding: 2.3rem !important
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: burlywood; /* Background color for the header */
+  padding: 5px;
+  box-shadow: 0 7px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+.onlyCard {
+  margin-top: 3.2rem !important;
+}
+.homePagecontent {
+  margin-top: 5.3rem !important;
+}
+
+.css-1ebprri {
+  margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.commonTable {
+  margin-left: 2rem;
+}
+
+.sticked {
+  background-color: bisque;
+}
+
+.onlyCardSize {
+  margin-top : 0.8rem;
+}

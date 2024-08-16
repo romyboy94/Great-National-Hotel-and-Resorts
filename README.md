@@ -1,3 +1,30 @@
+#Zomato Dataset
+https://raw.githubusercontent.com/romyboy94/Great-National-Hotel-Indonesian-recipes/main/Zomato%20Dataset.csv
+
+2) Overview of the Project
+   
+This project is about the tracking and evaluating the restaurant delivery orders and gives good insights about the dataset such as DELIVERY ID, Person, Age, Restaurant latitude, Restaurant longtitude, Order date , time picked ime delivered and etc..
+Order Date is one important feature where the date is selected and the data relative to the date is being displayed onto the Table. There are features such as Adding an Entry, Editing an Entry, View the selected entry.
+
+3) Features
+
+Date-Based Filtering:
+
+Users can filter delivery records based on the selected Order Date. The dashboard displays data relevant to the chosen date.
+Entry Management:
+
+Add New Entry: Users can add new delivery records to the dataset.
+Edit Entry: Users can edit existing delivery records.
+View Entry: Users can view detailed information about a selected delivery record.
+
+Pagination:
+
+The table supports pagination, displaying 10 records per page. This feature helps manage and navigate through large datasets efficiently.
+Interactive Table:
+
+The table provides an interactive interface where users can perform actions such as viewing, filtering ,editing, and adding records.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
